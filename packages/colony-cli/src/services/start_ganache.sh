@@ -3,7 +3,6 @@
 # Start Ganache
 ./node_modules/ganache-cli/cli.js \
   --gasLimit 6721975 \
-  --noVMErrorsOnRPCResponse \
   --acctKeys="./ganache-accounts.json" \
   --account="0x0355596cdb5e5242ad082c4fe3f8bbe48c9dba843fe1f99dd8272f487e70efae, 100000000000000000000" \
   --account="0xe9aebe8791ad1ebd33211687e9c53f13fe8cca53b271a6529c7d7ba05eda5ce2, 100000000000000000000" \
